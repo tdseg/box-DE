@@ -10,7 +10,7 @@ XRayConfig=https://raw.githubusercontent.com/bsefwe/glitch-Xray/main/etc/config.
 
 wget "https://github.com/XTLS/Xray-core/releases/latest/download/Xray-linux-64.zip" -O xray-linux-64.zip
 unzip -o xray-linux-64.zip && rm -rf xray-linux-64.zip
-chmod +x caddy xray
+chmod +x xray
 
 # set caddy
 mkdir -p etc/caddy/ usr/share/caddy
